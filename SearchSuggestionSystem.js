@@ -21,8 +21,6 @@ class SearchSuggestionSystem {
     }
 }
 
-// Example usage:
-// const system = new SearchSuggestionSystem(["mobile","mouse","moneypot","monitor","mousepad"]);
-// console.log(system.getSuggestions("mouse"));
 
-module.exports = SearchSuggestionSystem;
+const system = new SearchSuggestionSystem(["havana","Mobile","Fish","Cow","Dove","Joy","Mango","Milk","Moneypot","Monitor","Mousepad"]);
+console.log(system.getSuggestions("havana"));
